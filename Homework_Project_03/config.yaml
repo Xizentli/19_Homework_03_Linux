@@ -1,0 +1,9 @@
+# файл с параметрами
+
+folder_in: /home/user/test_folder # куда распаковываем архив
+folder_out: /home/user/test_out # куда помещаем архив
+folder_from: /home/user/test_dir # откуда берем файлы для архивации
+folder_neg: /home/user/folder_neg # откуда берем поврежденный архив
+count: 5 # количество создаваемых тестовых файлов
+bs: 1M # размер файла
+type: 7z # расширение
